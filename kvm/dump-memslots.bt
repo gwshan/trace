@@ -4,6 +4,9 @@
  * Copyright (C) 2026  Red Hat, Inc.
  *
  * Author: Gavin Shan <gshan@redhat.com>
+ *
+ * Iterate the files associated with qemu process, locate the one associated
+ * with "struct kvm". From there, the memory slots are dumped.
  */
 
 BEGIN {
